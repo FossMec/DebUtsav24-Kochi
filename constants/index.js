@@ -32,6 +32,53 @@ export const NavItems = [
     }
 ]
 
+export const FaqData = [
+  {
+    question:
+      "Can I contribute to Debian as a technical content writer or as an experienced programmer? ",
+    answer: `During the event, you'll have the opportunity to contribute to Debian in various ways. Here are the main areas you can focus on:
+
+Documentation
+
+Improve existing Debian documentation
+Create new guides or tutorials
+Update package descriptions
+Translate documentation to different languages
+
+Code Contributions
+
+Work on Debian packages
+Fix bugs in existing software
+Implement new features
+Contribute to Debian-related web projects
+`,
+  },
+  {
+    question: "Are there any pre-requisites ?",
+    answer: `1. Laptop with Debian/Ubuntu or another Linux distribution installed (preferably Debian)
+2. Basic familiarity with git and terminal usage`,
+  },
+  {
+    question: "What should I bring to the event ?",
+    answer: `- Laptop with a Debian-based system installed (if possible)
+- Notepad and pen for taking notes
+- Your enthusiasm and questions!
+`,
+  },
+  {
+    question: "What can I look forward to taking away from this event?",
+    answer: `1. Understand the basics of Free Software and its importance
+2. Have a good grasp of Debian's role in the open-source community
+3. Gain hands-on experience contributing to a real open-source project
+4. Network with like-minded individuals and potential mentors
+`,
+  },
+  {
+    question: "Why we have an entry fee?",
+    answer: "We would like you to have the best possible experience at Debutsav'24 and for that we thought to take a small entrance fee to facilitate providing the best in terms of food and other amenities. With this we also would like to ensure commitment in-terms of participation and avoid any sort of spam registrations that may affect a genuine participant to miss out on the opportunity."
+  },
+];
+
 export const contactData = [
   { 
     name: 'Nikhil M', 
