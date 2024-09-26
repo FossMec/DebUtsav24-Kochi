@@ -7,6 +7,8 @@ import Navbar from "@/components/Navbar";
 import Speakers from "@/components/Speakers";
 import Sponsors from "@/components/Sponsors";
 import TimelineSection from "@/components/Timeline/TimelineSection";
+import Faq from "@/components/Faq/Faq";
+import Tickets from "@/components/Tickets/Tickets";
 
 export default function Home() {
   return (
@@ -16,8 +18,10 @@ export default function Home() {
       <CountDown />
       <About />
       <TimelineSection />
-      {/* <Speakers />
-      <Sponsors /> */}
+      {/*<Speakers />*/}
+      <Tickets />
+      <Sponsors />
+      <Faq />
       <Contacts />
       <Footer />
     </div>
