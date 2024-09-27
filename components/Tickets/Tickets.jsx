@@ -5,7 +5,7 @@ import Ticket from "@/assets/Ticket.png"
 function Tickets() {
   return (
     <div className="max-w-screen-xl flex flex-col px-4 py-8 mx-auto lg:gap-8 justify centre items-center">
-      <h1 className="text-4xl font-bold text-center mb-20">Tickets</h1>
+      <h4 className='text-3xl md:text-5xl text-center text-red w-full font-semibold mb-16'>Tickets</h4>
       {/*<div
         className="relative rounded-full bg-red/[.1] md:my-[40px] p-4 text-left border-[2px] border-red flex flex-col overflow-hidden w-[60vw] min-w-[398px] justify-center items-center py-20"
         data-aos="fade-up"

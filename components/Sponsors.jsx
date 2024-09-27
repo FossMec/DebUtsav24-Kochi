@@ -13,7 +13,7 @@ const Sponsors = () => {
     ));
 
   return (
-    <div className="max-w-screen-xl flex flex-col px-4 py-8 mx-auto lg:gap-8 justify centre items-center">
+    <div className="flex flex-col px-4 py-8 mx-auto lg:gap-8 justify-centre items-center">
       {/*<div className="flex flex-col justify-center items-center gap-16">
         <h2 className="text-2xl font-semibold">Platinum</h2>
         <div className="flex flex-col justify-center items-center ">
@@ -28,7 +28,7 @@ const Sponsors = () => {
           {renderSponsors(silverSponsors, 200)}
         </div>
       </div>*/}
-      <h1 className="text-4xl font-bold text-center mb-20">Sponsors</h1>
+      <h4 className='text-3xl md:text-5xl text-center text-gray-light w-full font-semibold mb-4'>Our<span className='text-red'> Sponsors</span></h4>
       <Image src={FossLogo} alt="true" className="w-60" />
     </div>
   );
