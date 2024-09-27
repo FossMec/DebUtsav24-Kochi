@@ -13,7 +13,7 @@ const FaqCard = ({ question, answer, AOSrefresh }) => {
         aria-hidden="true"
       ></div>
       <div
-        className={`relative bg-[#080808] max-sm:bg-[#101010] transition-all duration-400 ease-in-out w-full px-[25px] pt-[20px] rounded-[14px] ${
+        className={`relative bg-zinc-900 transition-all duration-400 ease-in-out w-full px-[25px] pt-[20px] rounded-[14px] ${
           !active ? "pb-[20px]" : ""
         }`}
       >

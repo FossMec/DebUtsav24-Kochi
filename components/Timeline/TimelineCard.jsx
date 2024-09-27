@@ -22,22 +22,23 @@ const TimelineCard = ({item, mobile, index}) => {
         <TimelineDot style={{backgroundColor: 'rgba(204,24,72, 0.3)'}} className='bg-opacity-30'>
             <div style={{backgroundColor: '#CC1848'}} className='size-[8px] rounded-full'/>
         </TimelineDot>
-        {index==4 ? 
+        {index==5 ? 
           <TimelineConnector style={{backgroundColor: 'transparent'}} />
         : <TimelineConnector style={{backgroundColor: 'rgba(204,24,72, 0.3)'}} />
         }
       </TimelineSeparator>
       <TimelineContent sx={{ m: "auto 0" }}>
         <div
-          className='relative rounded-full bg-red/[.1] md:my-[40px] p-4 text-left border-[2px] border-red flex flex-col overflow-hidden '
+          className='relative rounded-3xl bg-red/[.1] md:my-[40px] p-2 text-left border-[2px] border-red flex flex-col overflow-hidden '
           data-aos="fade-up"
         >
-          <span className='font-generalSans text-gray-light text-base font-[500]'>
-            {item.title}
-          </span>
+          <span className='font-generalSans text-gray-light text-base font-[500] ml-2'>{item.title}</span>
           {mobile && (
-            <span className='font-generalSans text-base text-gray-light font-[500]'>{item.time}</span>
+            <span className='ml-2 font-generalSans text-base text-gray-light font-[500]'>{item.time}</span>
           )}
+          <span className='mt-2 bg-zinc-900 p-2 rounded-2xl'>
+            {item.text}
+          </span>
         </div>
       </TimelineContent>
     </TimelineItem>
