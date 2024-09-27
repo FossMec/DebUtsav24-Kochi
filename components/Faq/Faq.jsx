@@ -20,9 +20,9 @@ const Faq = () => {
   return (
     <div
       id="faq"
-      className="flex flex-col justify-center items-center mt-8 max-sm:pt-[80px] px-[40px] max-sm:px-[27px]"
+      className="flex flex-col justify-center items-center pt-4 px-[40px] max-sm:px-[27px]"
     >
-      <h4 className='text-3xl md:text-5xl text-center text-red w-full font-semibold mb-16'>F.A.Q</h4>
+      <h4 className='text-3xl md:text-5xl text-center text-red w-full font-semibold mb-16'>FAQ</h4>
       {FaqData.map((data, i) => (
         <div className="mb-[10px] sm:mb-[16px]" data-aos="fade-right" key={i}>
           <FaqCard
