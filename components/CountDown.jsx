@@ -1,7 +1,7 @@
 "use client";
 import React, { useState, useEffect } from "react";
 
-const CountdownTimer = ({ targetDate=1727836200000 }) => {
+const CountdownTimer = ({ targetDate=1727843400000 }) => {
   const [remainingTime, setRemainingTime] = useState({
     days: 0,
     hours: 0,

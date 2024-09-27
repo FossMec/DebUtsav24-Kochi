@@ -1,5 +1,5 @@
 import Image from "next/image";
-import FossLogo from "@/assets/fossunited-white.svg";
+import FossLogo from "@/assets/logos/fossunited-white.svg";
 const Sponsors = () => {
   const platinumSponsors = [];
   const goldSponsors = [];
