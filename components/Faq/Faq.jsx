@@ -20,14 +20,9 @@ const Faq = () => {
   return (
     <div
       id="faq"
-      className="min-h-screen flex flex-col justify-center items-center pt-[168px] max-sm:pt-[80px] px-[40px] max-sm:px-[27px]"
+      className="flex flex-col justify-center items-center mt-8 max-sm:pt-[80px] px-[40px] max-sm:px-[27px]"
     >
-      <h1
-        className="mirror-vertical mb-[50px] sm:mb-[100px] text-white text-[80px] leading-[75px] scale-[0.6] sm:scale-[0.8] lg:scale-100 font-[700] font-orbitron"
-        data-text="F.A.Q"
-      >
-        F.A.Q
-      </h1>
+      <h4 className='text-3xl md:text-5xl text-center text-red w-full font-semibold mb-16'>F.A.Q</h4>
       {FaqData.map((data, i) => (
         <div className="mb-[10px] sm:mb-[16px]" data-aos="fade-right" key={i}>
           <FaqCard
