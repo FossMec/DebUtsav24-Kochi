@@ -225,17 +225,17 @@ export const speakersList = [
 
 export const TimelineData = [
   {
-    time: "10:00 AM - 10:20 AM",
+    time: "10:00 AM - 10:30 AM",
     title: "Introduction to Free Software",
     text: "Learn about the philosophy, history, and importance of Free Software in the tech ecosystem."
   },
   {
-    time: "10:20 AM - 10:40 AM",
+    time: "10:30 AM - 11:00 AM",
     title: "Introduction to Debian",
     text: "Get acquainted with Debian, one of the most influential Linux distributions, its community, and its development process."
   },
   {
-    time: "10:40 AM - 1:00 PM",
+    time: "11:00 AM - 1:00 PM",
     title: "Cohort Sessions - Hands-on Tasks",
     text: "Start working on Debian-related tasks or projects with guidance from mentors."
   },
