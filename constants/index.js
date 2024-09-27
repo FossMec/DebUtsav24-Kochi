@@ -1,5 +1,10 @@
 import Chair from "@/assets/chair.jpeg";
 import ViceChair from "@/assets/vicechair.jpeg";
+import FossMITSLogo from "@/assets/logos/fossmits.svg";
+import MuktiLogo from "@/assets/logos/mukti.png"
+import AMFoss from "@/assets/logos/amfoss.png";
+import Nexus from "@/assets/logos/nexus.png";
+
 
 export const NavItems = [
     {
@@ -248,5 +253,24 @@ export const TimelineData = [
     time: "5:00 PM",
     title: "Event Conclusion",
     text: "Wrap up your work, share your progress, and participate in a final Q&A session."
+  }
+]
+
+export const PartnersData = [
+  {
+    link: "",
+    image: FossMITSLogo
+  },
+  {
+    link: "https://mukticommunity.github.io",
+    image: MuktiLogo
+  },
+  {
+    link: "https://amfoss.in/",
+    image: AMFoss
+  },
+  {
+    link: "https://x.com/nexussjcet",
+    image: Nexus
   }
 ]
