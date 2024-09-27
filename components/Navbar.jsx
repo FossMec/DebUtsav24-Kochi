@@ -1,5 +1,5 @@
 "use client";
-import logo from '@/assets/debutsav.svg';
+import logo from '@/assets/logos/debutsav.svg';
 import { useState } from "react";
 import Image from "next/image";
 import { RxHamburgerMenu } from "react-icons/rx";

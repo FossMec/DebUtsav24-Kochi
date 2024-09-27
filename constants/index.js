@@ -1,5 +1,10 @@
 import Chair from "@/assets/chair.jpeg";
 import ViceChair from "@/assets/vicechair.jpeg";
+import FossMITSLogo from "@/assets/logos/fossmits.svg";
+import MuktiLogo from "@/assets/logos/mukti.png"
+import AMFoss from "@/assets/logos/amfoss.png";
+import Nexus from "@/assets/logos/nexus.png";
+
 
 export const NavItems = [
     {
@@ -220,23 +225,52 @@ export const speakersList = [
 
 export const TimelineData = [
   {
-    time: "10:00 AM - 10:45 AM",
-    title: "Intro to Free Software",
+    time: "10:00 AM - 10:20 AM",
+    title: "Introduction to Free Software",
+    text: "Learn about the philosophy, history, and importance of Free Software in the tech ecosystem."
   },
   {
-    time: "10:45 AM - 11:30 AM",
-    title: "Intro to Debian",
+    time: "10:20 AM - 10:40 AM",
+    title: "Introduction to Debian",
+    text: "Get acquainted with Debian, one of the most influential Linux distributions, its community, and its development process."
   },
   {
-    time: "11:30 AM - 1:00 PM",
-    title: "Debian Sprint Session Begin",
+    time: "10:40 AM - 1:00 PM",
+    title: "Cohort Sessions - Hands-on Tasks",
+    text: "Start working on Debian-related tasks or projects with guidance from mentors."
   },
   {
     time: "1:00 PM - 2:00 PM",
     title: "Lunch Break",
+    text: "Enjoy a refreshing break and network with fellow participants."
   },
   {
     time: "2:00 PM - 4:00 PM",
-    title: "Debian Sprint Session",
+    title: "Sprint Continuation",
+    text: "Resume work on your sprint tasks. Collaborate with others and seek help if needed."
+  },
+  {
+    time: "5:00 PM",
+    title: "Event Conclusion",
+    text: "Wrap up your work, share your progress, and participate in a final Q&A session."
+  }
+]
+
+export const PartnersData = [
+  {
+    link: "",
+    image: FossMITSLogo
+  },
+  {
+    link: "https://mukticommunity.github.io",
+    image: MuktiLogo
+  },
+  {
+    link: "https://amfoss.in/",
+    image: AMFoss
+  },
+  {
+    link: "https://x.com/nexussjcet",
+    image: Nexus
   }
 ]

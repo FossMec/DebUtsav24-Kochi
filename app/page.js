@@ -9,6 +9,7 @@ import Sponsors from "@/components/Sponsors";
 import TimelineSection from "@/components/Timeline/TimelineSection";
 import Faq from "@/components/Faq/Faq";
 import Tickets from "@/components/Tickets/Tickets";
+import Partners from "@/components/Partners";
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
       {/*<Speakers />*/}
       <Tickets />
       <Sponsors />
+      <Partners />
       <Faq />
       <Contacts />
       <Footer />
