@@ -4,6 +4,7 @@ import FossMITSLogo from "@/assets/logos/fossmits.svg";
 import MuktiLogo from "@/assets/logos/mukti.png"
 import AMFoss from "@/assets/logos/amfoss.png";
 import Nexus from "@/assets/logos/nexus.png";
+import FossNITC from "@/assets/logos/fossnitc.png";
 
 
 export const NavItems = [
@@ -272,5 +273,9 @@ export const PartnersData = [
   {
     link: "https://x.com/nexussjcet",
     image: Nexus
+  },
+  {
+    link: "https://www.fosscell.org",
+    image: FossNITC
   }
 ]
