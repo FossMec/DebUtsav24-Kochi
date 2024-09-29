@@ -5,7 +5,8 @@ import MuktiLogo from "@/assets/logos/mukti.png"
 import AMFoss from "@/assets/logos/amfoss.png";
 import Nexus from "@/assets/logos/nexus.png";
 import FossNITC from "@/assets/logos/fossnitc.png";
-import Gecskp from "@/assets/logos/gecskp.svg"
+import Gecskp from "@/assets/logos/gecskp.svg";
+import Gect from "@/assets/logos/gect.png"
 
 
 export const NavItems = [
@@ -282,5 +283,9 @@ export const PartnersData = [
   {
     link: "",
     image: Gecskp
+  },
+  {
+    link: "https://www.instagram.com/fossgect",
+    image: Gect
   }
 ]
