@@ -60,11 +60,11 @@ const Landing = () => {
               Software (FOSS).
             </p>
             <div className="flex gap-2">
-              <Link href="https://app.formbricks.com/s/cm1ggwfvp000r123pzj996nkj">
+              {/* <Link href="https://app.formbricks.com/s/cm1ggwfvp000r123pzj996nkj">
                 <button className="inline-flex register bg-red text-white  text-red-500 items-center justify-center px-10 py-3 mr-3 text-xl font-medium text-center bg-primary-700 hover:bg-primary-800 ">
                   Register
                 </button>
-              </Link>
+              </Link> */}
               <Link href="/#about">
                 <button className="inline-flex register bg-transparent outline-red outline text-red  items-center justify-center px-10 py-3 mr-3 text-xl font-medium text-center">
                   About
