@@ -6,8 +6,8 @@ import AMFoss from "@/assets/logos/amfoss.png";
 import Nexus from "@/assets/logos/nexus.png";
 import FossNITC from "@/assets/logos/fossnitc.png";
 import Gecskp from "@/assets/logos/gecskp.svg";
-import Gect from "@/assets/logos/gect.png"
-
+import Gect from "@/assets/logos/gect.png";
+import Sset from "@/assets/logos/sset.png";
 
 export const NavItems = [
     {
@@ -287,5 +287,9 @@ export const PartnersData = [
   {
     link: "https://www.instagram.com/fossgect",
     image: Gect
+  },
+  {
+    link: "",
+    image: Sset
   }
 ]
