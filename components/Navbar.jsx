@@ -45,13 +45,13 @@ const Navbar = () => {
             </span>
           </Link>
         ))}
-        <button className="lg:hidden block register text-xl text-gray-light bg-red px-10 py-2">
+        {/* <button className="lg:hidden block register text-xl text-gray-light bg-red px-10 py-2">
           <a href="https://app.formbricks.com/s/cm1ggwfvp000r123pzj996nkj">Register</a>
-        </button>
+        </button> */}
       </div>
-      <button className="lg:block hidden register text-xl text-gray-light bg-red px-10 py-2">
+      {/* <button className="lg:block hidden register text-xl text-gray-light bg-red px-10 py-2">
         <a href="https://app.formbricks.com/s/cm1ggwfvp000r123pzj996nkj">Register</a>
-      </button>
+      </button> */}
     </div>
   );
 };
